@@ -1,0 +1,40 @@
+*{
+   padding: 0;
+    text-align: center;
+    background-color: rgb(240, 240, 29);
+    
+    box-shadow: silver;
+    
+}
+
+@font-face {
+    font-family: 'ticking_timebomb_bbregular';
+    src: url('tickingtimebombbb-webfont.woff2') format('woff2'),
+         url('tickingtimebombbb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+input {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    background-size: 15px;
+    }
+    
+input#comecar {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+input#pausar {
+    background-color:white;
+    color: rgb(6, 0, 12);
+}
+input#reset {
+    background-color:rgb(238, 238, 28);
+}
+h2#contador{
+    font-size: 110px;
+}
